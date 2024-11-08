@@ -1,0 +1,151 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #747474;
+    padding: 10px 0;
+    text-align: center;
+}
+nav{
+    padding: 10px 0px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #eeff00;
+}
+
+.mini_logo img {
+    width: 40px;
+    vertical-align: middle;
+    transform: scale(2);
+}
+
+.big-logo {
+    background-image: url('https://learn.logikaschool.com/uploads/student/4650114/672b3e0ce45b1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    height: 70vh;
+    width: 100%;
+}
+
+.big-logo h1 {
+    font-size: 36px;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-logo p {
+    font-size: 18px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+}
+
+.intro-image {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-text {
+    width: 50%;
+    padding: 20px;
+}
+
+.intro-text h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.intro-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+}
+
+.highlights {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.highlight {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 45%;
+    text-align: center;
+}
+
+.highlight img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.highlight h2 {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.highlight p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.explore-links {
+    text-align: center;
+    padding: 20px;
+}
+
+.explore-link {
+    background-color: #eeff00;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+.explore-link:hover {
+    background-color:  #ffea00;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
